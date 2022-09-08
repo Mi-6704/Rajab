@@ -1,0 +1,233 @@
+/* Global Class */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+
+}
+.Container {
+    width: 90%;
+    margin: auto;
+}
+section {
+    padding: 100px 0px;
+}
+.underline{
+    border-top: 5px solid #51968a;
+    width: 10%;
+    margin: 10px auto;
+}
+.Global-heading{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+Nav {
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+}
+.Menu-part {
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+    text-align: end;
+}
+.Menu-part li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 0px 10px;
+}
+.Menu-part li:hover{
+    background-color: #643a79;
+}
+
+.Menu-part a{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.Hero-part {
+    width: 100%;
+    float: left;
+    margin: 100px 0px;
+    text-align: center;
+    color: #ffffff;
+}
+.Hero-part h1 {
+    font-size: 35px;
+    font-weight: 600px;
+    width: 60%;
+    margin: auto;
+}
+.Hero-part a button{
+    width: 15%;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #eb7d4b;
+    transition: ease-in-out 5s ; 
+    border-radius: 5px;
+}   
+.Hero-part a button:hover{
+    background-color: #643a79;
+    box-shadow: 0px 0px 6px #af4210;
+}
+/* .service-section */
+#service {
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #ffffff;
+    text-align: center;
+}
+.service-writing-part{
+    width: 100%;
+    float: left;
+}
+.service-box-part{
+    margin-top: 50px;
+    width: 100%;
+    float:left;
+}
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.service-box h2 {
+    margin: 2%;
+}
+.service-box img {
+    height: 120px;
+}
+
+/* Team section */
+
+#team {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+    /* margin-top: 15px; */
+}
+.team-box {
+    width: 25%;
+    float: left;
+    padding: 100px;
+}
+.team-box img {
+
+width: 250px;
+
+height: 250px;
+
+border-radius: 50%;
+}
+.team-box p {
+
+margin: 15px 0px;
+}
+.small-heading {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.team-title {
+
+color: #44f1f1;
+}
+.team-icon {
+}
+.team-icon i {
+
+background-color: #bdd1df;
+
+color: #fff;
+
+width: 35px;
+
+padding: 10px;
+
+border-radius: 50px;
+
+margin: 0px 5px;
+
+transition: ease-in-out 0.55s;
+}
+.team-icon i:hover {
+    background-color: #95c6e9;
+    color: #17c2a4;
+}
+
+#demo {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+    color: #3c4761;
+}
+.demo-box-part {
+    width: 100%;
+    float: left;
+}
+.demo-box {
+    width: 25%;
+    float: left;
+    padding: 100px;
+}
+#PORTFOLIO {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ffdd99;
+}
+.dasbord a button{
+    width: 7%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ebc985;
+    transition: ease-in-out 5s ; 
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.dasbord a button:hover {
+    background-color: #ffffff;
+}
+.PORTFOLIO-box-part {
+    width: 100%;
+    float: left;
+}
+.PORTFOLIO-box {
+    width: 50%;
+    float: left;
+    padding: 100px;
+}
